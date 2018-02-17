@@ -36,13 +36,13 @@ This workshop uses [docker-compose](https://docs.docker.com/compose/) to easily 
 There are virtually an infinite amount of tools that you can use to help you on the technology side but all of them will fall under one or more of these categories:
 
 1. [Project Tracking](#project-tracking)
-* [Source Code Management](#source-code-management)
-* [Automation Server](#automation-server)
-* [Static Code Analysis](#static-code-analysis)
-* [Testing](#testing)
-* [Artifact Management](#artifact-management)
-* [Instant Feedback](#instant-feedback)
-* [Analytics & Monitoring](#analytics--monitoring)
+2. [Source Code Management](#source-code-management)
+3. [Automation Server](#automation-server)
+4. [Static Code Analysis](#static-code-analysis)
+5. [Testing](#testing)
+6. [Artifact Management](#artifact-management)
+7. [Instant Feedback](#instant-feedback)
+8. [Analytics & Monitoring](#analytics--monitoring)
 
 
 ### Project Tracking
