@@ -52,8 +52,8 @@ The tools identified here will be labeled as:
 
 **Notes:**
 
-* There is not better tool than the other, don't forget that each team should decide what is best for it.
-* This list will be updated continuously
+* A **better tool** does not exist. It's up to the team to decide which tool suits its needs.
+* This list will be updated on a regular basis.
 
 
 ### 1. Project Tracking
