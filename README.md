@@ -28,7 +28,7 @@ Prerequisites
 
 ## How it works
 
-This workshop uses [docker-compose](https://docs.docker.com/compose/) to easily setup the local tools. Inside the [tools]() folder there are the required files and instructions of usage per tool.
+This workshop uses [docker-compose](https://docs.docker.com/compose/) to easily setup the local tools. Inside the [tools](/tools) folder there are the required files and instructions of usage per tool.
 
 
 ## Tools
@@ -63,7 +63,7 @@ The tools identified here will be labeled as:
 
 ### 2. Source Code Management
 
-* [Git](https://git-scm.com/) - [Local setup](https://git-scm.com/)
+* [Git](https://git-scm.com/) - [Local setup](https://git-scm.com/downloads)
 * [Github](https://github.com/) - Public free
 
 ### 3. Automation Server
@@ -83,6 +83,7 @@ The tools identified here will be labeled as:
 ### 6. Artifact Management
 
 * [Nexus OSS](https://www.sonatype.com/nexus-repository-oss) - [Local setup](/tools/nexus)
+* [Artifactory](https://jfrog.com/artifactory/) - Public free
 
 ### 7. Instant Feedback
 
