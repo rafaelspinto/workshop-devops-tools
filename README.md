@@ -2,7 +2,7 @@
 
 This workshop is designed to help you start or improve your knowledge of working in a *DevOps environment*. 
 
-The goal for this workshop is to prepare a fully working set of tools that will provide you the *DevOps environment*. For simplicity reasons some of the tools will be setup locally while others will be public/online.
+The goal for this workshop is to prepare a fully working set of tools that will help you start building the *"DevOps environment"*. For simplicity reasons some of the tools will be setup locally while others will be public/online.
 
 ## What is DevOps
 
