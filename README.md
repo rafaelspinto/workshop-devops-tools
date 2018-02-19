@@ -10,7 +10,7 @@ The goal for this workshop is to prepare a fully working set of tools that will 
 
 With that being said, ***DevOps*** or ***Engineering Agility*** as I like to call it, is ***Agile 2.0*** because it's all about being agile in a fast and highly competitive world by taking advantage of technology and engineering best practices to easily adapt to change.
 
-**Engineering Agility** = **Culture** + **Technology** + **Best Practices**
+**Engineering Agility** = **Culture** + **Technology** + **Best Practices** + **Talent**
 
 ## Table of Contents
 
