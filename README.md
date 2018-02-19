@@ -1,4 +1,4 @@
-# DevOps Tools Workshop
+# DevOps Tools Workshop (Work in Progress)
 
 This workshop is designed to help you start or improve your knowledge of working in a *DevOps environment*. 
 
@@ -45,36 +45,36 @@ There are virtually an infinite amount of tools that you can use to help you on 
 8. [Analytics & Monitoring](#analytics--monitoring)
 
 
-### Project Tracking
+### 1. Project Tracking
 
 * [Trello](https://trello.com/) - Public
 
-### Source Code Management
+### 2. Source Code Management
 
 * [Github](https://github.com/) - Public
 
-### Automation Server
+### 3. Automation Server
 
 * [Jenkins](https://jenkins.io/) - [Local setup](/tools/jenkins)
 * [Travis CI](https://travis-ci.org/) - Public (Alternative)
 
-### Static Code Analyzer
+### 4. Static Code Analyzer
 
 * [Sonarqube](https://www.sonarqube.org/) - Local
 * [SonarCloud](https://sonarcloud.io/) - Public (Alternative)
 
-### Testing
+### 5. Testing
 
 * [Selenium](http://www.seleniumhq.org/) - Local
 
-### Artifact Management
+### 6. Artifact Management
 
 * [Nexus OSS](https://www.sonatype.com/nexus-repository-oss) - Local
 
-### Instant Feedback
+### 7. Instant Feedback
 
-To be Added
+To be Added.
 
-### Analytics & Monitoring
+### 8. Analytics & Monitoring
 
 * [Elastic](https://www.elastic.co/products) - Local
