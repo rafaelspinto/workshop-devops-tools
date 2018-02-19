@@ -55,7 +55,7 @@ There are virtually an infinite amount of tools that you can use to help you on 
 
 ### Automation Server
 
-* [Jenkins](https://jenkins.io/) - Local
+* [Jenkins](https://jenkins.io/) - [Local setup](/tools/jenkins)
 * [Travis CI](https://travis-ci.org/) - Public (Alternative)
 
 ### Static Code Analyzer
