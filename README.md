@@ -44,37 +44,50 @@ There are virtually an infinite amount of tools that you can use to help you on 
 7. [Instant Feedback](#7-instant-feedback)
 8. [Analytics & Monitoring](#8-analytics--monitoring)
 
+The tools identified here will be labeled as:
+
+* **Local setup** - For these kind of tools this workshop will provide a simple way to have a local installation. 
+* **Public free** - These kind of tools provide a version that you don't need to pay for usage although there is a chance that you may pay for certain features (upgrades).
+* **Public commercial** - Using these kind of tool implies that you will pay a fee.
+
+**Notes:**
+
+* There is not better tool than the other, don't forget that each team should decide what is best for it.
+* This list will be updated continuously
+
 
 ### 1. Project Tracking
 
-* [Trello](https://trello.com/) - Public
+* [Trello](https://trello.com/) - Public free
+* [JIRA](https://www.atlassian.com/software/jira) - Public commercial
 
 ### 2. Source Code Management
 
-* [Github](https://github.com/) - Public
+* [Git](https://git-scm.com/) - [Local setup](https://git-scm.com/)
+* [Github](https://github.com/) - Public free
 
 ### 3. Automation Server
 
 * [Jenkins](https://jenkins.io/) - [Local setup](/tools/jenkins)
-* [Travis CI](https://travis-ci.org/) - Public (Alternative)
+* [Travis CI](https://travis-ci.org/) - Public free
 
 ### 4. Static Code Analyzer
 
-* [Sonarqube](https://www.sonarqube.org/) - Local
-* [SonarCloud](https://sonarcloud.io/) - Public (Alternative)
+* [Sonarqube](https://www.sonarqube.org/) - [Local setup](/tools/sonarqube)
+* [SonarCloud](https://sonarcloud.io/) - Public free
 
 ### 5. Testing
 
-* [Selenium](http://www.seleniumhq.org/) - Local
+* [Selenium](http://www.seleniumhq.org/) - [Local setup](/tools/selenium)
 
 ### 6. Artifact Management
 
-* [Nexus OSS](https://www.sonatype.com/nexus-repository-oss) - Local
+* [Nexus OSS](https://www.sonatype.com/nexus-repository-oss) - [Local setup](/tools/nexus)
 
 ### 7. Instant Feedback
 
-To be Added.
+* [Slack](https://slack.com/) - Public free
 
 ### 8. Analytics & Monitoring
 
-* [Elastic](https://www.elastic.co/products) - Local
+* [Elastic](https://www.elastic.co/products) - [Local setup](/tools/elastic)
