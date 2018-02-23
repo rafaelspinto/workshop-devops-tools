@@ -79,7 +79,7 @@ The tools identified here will be labeled as:
 
 ### 5. Testing
 
-* [Selenium](http://www.seleniumhq.org/) - [Local setup](/tools/selenium)
+* [Selenium Grid](http://www.seleniumhq.org/) - [Local setup](/tools/selenium-grid)
 
 ### 6. Artifact Management
 

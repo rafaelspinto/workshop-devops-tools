@@ -1,0 +1,78 @@
+version: '3.5'
+
+services:
+    selenium_hub:
+        image: selenium/hub:3.1.0
+        container_name: selenium_hub
+        privileged: true
+        ports:
+            - 4444:4444
+        environment:
+            - GRID_TIMEOUT=120000
+            - GRID_BROWSER_TIMEOUT=120000
+        networks:
+            - devops-internal
+
+    chrome:
+        image: selenium/node-chrome:3.1.0
+        privileged: true
+        depends_on:
+            - selenium_hub
+        environment:
+            - no_proxy=localhost
+            - TZ=Europe/London
+            - HUB_PORT_4444_TCP_ADDR=selenium_hub
+            - HUB_PORT_4444_TCP_PORT=4444
+        volumes:
+            - /dev/shm:/dev/shm
+        networks:
+            - devops-internal
+
+    chrome-debug:
+        image: selenium/node-chrome-debug:3.1.0
+        privileged: true
+        depends_on:
+            - selenium_hub
+        ports:
+            - "5900"
+        environment:
+            - no_proxy=localhost
+            - TZ=Europe/London
+            - HUB_PORT_4444_TCP_ADDR=selenium_hub
+            - HUB_PORT_4444_TCP_PORT=4444
+        volumes:
+            - /dev/shm:/dev/shm
+        networks:
+            - devops-internal
+
+    firefox:
+        image: selenium/node-firefox:3.1.0
+        privileged: true
+        depends_on:
+            - selenium_hub
+        environment:
+            - no_proxy=localhost
+            - TZ=Europe/London
+            - HUB_PORT_4444_TCP_ADDR=selenium_hub
+            - HUB_PORT_4444_TCP_PORT=4444
+        networks:
+            - devops-internal
+
+    firefox-debug:
+        image: selenium/node-firefox-debug:3.1.0
+        privileged: true
+        depends_on:
+            - selenium_hub
+        ports:
+            - "5900"
+        environment:
+            - no_proxy=localhost
+            - TZ=Europe/London
+            - HUB_PORT_4444_TCP_ADDR=selenium_hub
+            - HUB_PORT_4444_TCP_PORT=4444
+        networks:
+            - devops-internal
+
+networks:
+  devops-internal:
+    name: devops-internal
