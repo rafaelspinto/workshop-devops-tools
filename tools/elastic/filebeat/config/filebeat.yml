@@ -1,0 +1,14 @@
+filebeat:
+  prospectors:
+    -
+      paths:
+        # for regular jenkins jobs
+        - /var/jenkins_home/jobs/*/builds/*/log
+        # for jenkins blue ocean pipeline jobs
+        - /var/jenkins_home/jobs/*/jobs/*/branches/*/builds/*/log
+      document_type: log
+output:
+  redis:
+    hosts: ["redis"]
+    port: 6379
+    key: "logstash"

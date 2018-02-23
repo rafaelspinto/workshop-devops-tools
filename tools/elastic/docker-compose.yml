@@ -1,0 +1,80 @@
+version: "3.5"
+
+services:
+
+  redis:
+    image: redis:3.2.11
+    container_name: redis
+    ports:
+      - 6379:6379
+    volumes:
+      - redis-data:/data
+    networks:
+      - devops-internal
+
+  elasticsearch:
+    build:
+        context: $PWD/elasticsearch
+        dockerfile: $PWD/elasticsearch/Dockerfile
+    container_name: elasticsearch
+    environment:
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - 9200:9200
+      - 9300:9300
+    volumes:
+      - "es-data:/usr/share/elasticsearch/data"
+    networks:
+      - devops-internal
+
+  kibana:
+    build:
+        context: $PWD/kibana
+        dockerfile: $PWD/kibana/Dockerfile
+    container_name: kibana
+    ports:
+      - 5601:5601
+    networks:
+      - devops-internal
+    depends_on:
+      - elasticsearch
+
+  logstash:
+    image: logstash:5.6.7
+    container_name: logstash
+    command: logstash -f /config/
+    environment:
+      - JAVA_OPTS=-Xms1g -Xmx1g
+    volumes:
+      - $PWD/logstash/config:/config
+    networks:
+      - devops-internal
+    depends_on:
+      - elasticsearch
+      - redis
+
+  filebeat:
+    build:
+        context: $PWD/filebeat
+        dockerfile: $PWD/filebeat/Dockerfile
+    container_name: filebeat
+    volumes:
+      - filebeat-data:/data
+    volumes:
+        - ../jenkins/jenkins_home:/var/jenkins_home
+    networks:
+        - devops-internal
+    external_links:
+        - redis:redis
+
+volumes:
+  es-data:
+    driver: local
+  redis-data:
+    driver: local
+  filebeat-data:
+    driver: local
+
+networks:
+  devops-internal:
+    name: devops-internal
