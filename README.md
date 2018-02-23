@@ -72,7 +72,7 @@ The tools identified here will be labeled as:
 * [Jenkins](https://jenkins.io/) - [Local setup](/tools/jenkins)
 * [Travis CI](https://travis-ci.org/) - Public free
 
-### 4. Static Code Analyzer
+### 4. Static Code Analysis
 
 * [Sonarqube](https://www.sonarqube.org/) - [Local setup](/tools/sonarqube)
 * [SonarCloud](https://sonarcloud.io/) - Public free
