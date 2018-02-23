@@ -6,7 +6,7 @@ The goal for this workshop is to prepare a fully working set of tools that will 
 
 ## What is DevOps
 
-*First rule of DevOps, there are no rules*. You will not find a single or an exact definition for *DevOps*, just try to google it and you will see. In my opinion that's the way how it should be. *DevOps* is dependent on a team and how that team performs, so in this sense every team will have its own definition.
+*First rule of DevOps, there are no rules*. You will not find a single or an exact definition for *DevOps*, just try to google it and you will see. In my opinion that's the way how it should be. *DevOps* is dependent on a team and how that team performs, so, in this sense every team will have its own definition.
 
 With that being said, ***DevOps*** or ***Engineering Agility*** as I like to call it, is ***Agile 2.0*** because it's all about being agile in a fast and highly competitive world by taking advantage of technology and engineering best practices to easily adapt to change.
 

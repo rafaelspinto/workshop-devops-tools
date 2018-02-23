@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-* [Starting Sonarqube](#starting-Sonarqube)
-* [Stopping Sonarqube](#stopping-Sonarqube)
+* [Starting Sonarqube](#starting-sonarqube)
+* [Stopping Sonarqube](#stopping-sonarqube)
 
 
 ## Starting Sonarqube
