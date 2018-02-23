@@ -65,6 +65,7 @@ The tools identified here will be labeled as:
 
 * [Git](https://git-scm.com/) - [Local setup](https://git-scm.com/downloads)
 * [Github](https://github.com/) - Public free
+* [Bitbucket](https://bitbucket.org) - Public free
 
 ### 3. Automation Server
 
