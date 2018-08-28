@@ -1,0 +1,30 @@
+version: "3.5"
+
+services:
+ server:
+    image: webpagetest/server
+    ports:
+      - "4000:80"
+    volumes:
+      - wpt_settings:/var/www/html/settings
+      - wpt_results:/var/www/html/results
+      - wpt_logs:/var/www/html/logs
+    restart: always
+ agent:
+    image: webpagetest/agent
+    ports:
+      - "4001:80"
+    cap_add:
+      - NET_ADMIN
+    env_file:
+      - wpt_agent.env
+    depends_on:
+      - server
+    network_mode: "host"
+    restart: always
+
+volumes:
+  wpt_settings:
+  wpt_results:
+  wpt_logs:
+
