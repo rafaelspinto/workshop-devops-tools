@@ -80,6 +80,8 @@ The tools identified here will be labeled as:
 ### 5. Testing
 
 * [Selenium Grid](http://www.seleniumhq.org/) - [Local setup](/tools/selenium-grid)
+* [Web Page Test](https://www.webpagetest.org/) - [Local setup](/tools/wpt)
+
 
 ### 6. Artifact Management
 
