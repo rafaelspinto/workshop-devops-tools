@@ -100,3 +100,4 @@ The tools identified here will be labeled as:
 ### 8. Analytics & Monitoring
 
 * [Elastic](https://www.elastic.co/products) - [Local setup](/tools/elastic)
+* [Nagios](https://www.nagios.com) - Public free
