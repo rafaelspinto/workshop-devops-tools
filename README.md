@@ -83,6 +83,9 @@ The tools identified here will be labeled as:
 * [Selenium Grid](http://www.seleniumhq.org/) - [Local setup](/tools/selenium-grid)
 * [Web Page Test](https://www.webpagetest.org/) - [Local setup](/tools/wpt)
 * [Burp Suite](https://portswigger.net/burp) - Public free
+* [Jmeter](https://jmeter.apache.org/) - Public free
+* [SOAPUI](https://www.soapui.org/) - Public free
+* [Postman](https://www.getpostman.com/) - Public free
 * [OWASP_ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - Public free
 
 ### 6. Artifact Management
